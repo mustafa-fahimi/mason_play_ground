@@ -1,0 +1,14 @@
+name: flutter_clean_arch_feature
+description: Create a Clean Architecture feature in Flutter
+version: 1.0.0+1
+vars:
+  feature_name:
+    type: string
+    description: The feature name
+    default: NewFeature
+    prompt: Please enter the feature name
+  app_name:
+    type: string
+    description: The application name
+    default: APP_NAME_HERE
+    prompt: Please enter the application name
