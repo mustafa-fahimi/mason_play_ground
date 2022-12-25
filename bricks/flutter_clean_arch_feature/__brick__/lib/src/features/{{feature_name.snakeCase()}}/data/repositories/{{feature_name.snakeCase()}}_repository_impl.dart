@@ -9,7 +9,7 @@ class {{feature_name.pascalCase()}}RepositoryImpl implements {{feature_name.pasc
   final {{feature_name.pascalCase()}}RemoteDataSource _remoteDS;
 
   @override
-  Future<Either<{{feature_name.pascalCase()}}Failure, {{feature_name.pascalCase()}}Response>> getUsers({
+  Future<Either<{{feature_name.pascalCase()}}Failure, {{feature_name.pascalCase()}}Response>> get{{feature_name.pascalCase()}}({
     int? page,
   }) =>
       _remoteDS.get{{feature_name.pascalCase()}}(page: page).then(
