@@ -1,5 +1,5 @@
-name: { { project_name.snakeCase() } }
-description: This project includes every useful thing that i use in other flutter projects
+name: {{project_name.snakeCase()}}
+description: {{project_description}}
 version: 1.0.0+1
 publish_to: none
 
