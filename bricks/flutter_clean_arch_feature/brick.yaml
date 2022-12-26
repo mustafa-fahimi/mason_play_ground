@@ -1,6 +1,10 @@
 name: flutter_clean_arch_feature
 description: Create a Clean Architecture feature in Flutter
 version: 1.0.0+1
+
+environment:
+  mason: ">=0.1.0-dev.40 <0.1.0"
+
 vars:
   feature_name:
     type: string
