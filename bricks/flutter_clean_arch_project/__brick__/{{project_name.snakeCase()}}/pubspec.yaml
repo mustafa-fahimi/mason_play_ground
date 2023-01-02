@@ -60,22 +60,23 @@ flutter:
   uses-material-design: true
   generate: true
 
-assets:
-  - assets/
-  - assets/images/
+  assets:
+    - assets/
+    - assets/fonts/
+    - assets/images/
 
-fonts:
-  - family: iranYekanWeb
-    fonts:
-      - asset: assets/fonts/Iranyekan thin.ttf
-        weight: 200
-      - asset: assets/fonts/Iranyekan light.ttf
-        weight: 300
-      - asset: assets/fonts/Iranyekan.ttf
-        weight: 400
-      - asset: assets/fonts/Iranyekan medium.ttf
-        weight: 500
-      - asset: assets/fonts/Iranyekan bold.ttf
-        weight: 700
-      - asset: assets/fonts/Iranyekan black.ttf
-        weight: 800
+  fonts:
+    - family: iranYekanWeb
+      fonts:
+        - asset: assets/fonts/Iranyekan thin.ttf
+          weight: 200
+        - asset: assets/fonts/Iranyekan light.ttf
+          weight: 300
+        - asset: assets/fonts/Iranyekan.ttf
+          weight: 400
+        - asset: assets/fonts/Iranyekan medium.ttf
+          weight: 500
+        - asset: assets/fonts/Iranyekan bold.ttf
+          weight: 700
+        - asset: assets/fonts/Iranyekan black.ttf
+          weight: 800
