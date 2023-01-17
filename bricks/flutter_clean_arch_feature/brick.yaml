@@ -11,8 +11,8 @@ vars:
     description: The feature name
     default: NewFeature
     prompt: Please enter the feature name
-  app_name:
+  project_name:
     type: string
     description: The application name
-    default: APP_NAME_HERE
+    default: PROJECT_NAME_HERE
     prompt: Please enter the application name

@@ -1,6 +1,6 @@
 import 'package:freezed_annotation/freezed_annotation.dart';
-import 'package:{{app_name.snakeCase()}}/src/features/core/failures/api_failure.dart';
-import 'package:{{app_name.snakeCase()}}/src/features/core/failures/failure.dart';
+import 'package:{{project_name.snakeCase()}}/src/features/core/failures/api_failure.dart';
+import 'package:{{project_name.snakeCase()}}/src/features/core/failures/failure.dart';
 
 part '{{feature_name.snakeCase()}}_failure.freezed.dart';
 

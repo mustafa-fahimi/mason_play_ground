@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:{{app_name.snakeCase()}}/src/core/core.dart';
-import 'package:{{app_name.snakeCase()}}/src/injection/injectable.dart';
-import 'package:{{app_name.snakeCase()}}/src/presentation/core/components/page_decorator.dart';
-import 'package:{{app_name.snakeCase()}}/src/presentation/{{feature_name.snakeCase()}}/bloc/{{feature_name.snakeCase()}}_bloc.dart';
+import 'package:{{project_name.snakeCase()}}/src/core/core.dart';
+import 'package:{{project_name.snakeCase()}}/src/injection/injectable.dart';
+import 'package:{{project_name.snakeCase()}}/src/presentation/core/components/page_decorator.dart';
+import 'package:{{project_name.snakeCase()}}/src/presentation/{{feature_name.snakeCase()}}/bloc/{{feature_name.snakeCase()}}_bloc.dart';
 import 'package:responsive_framework/responsive_framework.dart';
 
 class {{feature_name.pascalCase()}}Page extends StatelessWidget {
