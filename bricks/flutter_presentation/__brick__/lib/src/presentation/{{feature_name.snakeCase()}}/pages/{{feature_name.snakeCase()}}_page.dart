@@ -117,7 +117,7 @@ class _{{feature_name.pascalCase()}}Body extends StatelessWidget {
                 } else {
                   return Center(
                     child: Text(
-                      {{feature_name.camelCase()}}.id.toString(),
+                      {{feature_name.camelCase()}}[0],
                       style: const TextStyle(fontSize: 28),
                     ),
                   );
