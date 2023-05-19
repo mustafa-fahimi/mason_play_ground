@@ -1,0 +1,18 @@
+name: flutter_freezed_bloc
+description: Create a Clean Architecture BLoC with freezed in Flutter
+version: 1.0.0+1
+
+environment:
+  mason: ">=0.1.0-dev.47 <0.1.0"
+
+vars:
+  feature_name:
+    type: string
+    description: The feature name
+    default: NewFeature
+    prompt: Please enter the feature name
+  project_name:
+    type: string
+    description: The application name
+    default: PROJECT_NAME_HERE
+    prompt: Please enter the application name
